@@ -113,15 +113,16 @@ body {
 @media screen and (min-width: 992px) {
   .list {
     display: flex;
-    gap: 24px;
+    gap: 10px;
     justify-content: center;
+    flex-wrap: nowrap;
   }
 
   .item-menu:last-child {
-    width: 600px;
+    width: calc((100% - 10px) / 3);
   }
 
   .item-menu {
-    width: 600px;
+    width: calc((100% - 10px) / 3);
   }
 }
